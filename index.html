@@ -155,23 +155,37 @@
     <div style="width: 23.5%;;height: 270px;background-color: #c2c2c2;border-radius: 3px;margin: 5px 0.5%;float:left">
         <div id="div3"
              style="width: 100%;height: 270px;font-size: 20px;color: white;font-family: 'myFont';text-align: center">
-            <br>
-            <span style="font-size: 28px">程序员欢哥</span>
-            <!--<span>两情若是长久时 <br> 又岂在朝朝暮暮</span>-->
-            <br>
-            <br>
-            <span style="color: #3c3c3c">一入java深似海</span>
-            <br>
-            <span style="color: #0f0f0f">从此一切皆路人</span>
+            <img src="img/IMG_20190309_151525.jpg" style="height: 270px;width: 100%;border-radius: 3px;"/>
+<!--            <br>-->
+<!--            <span style="font-size: 28px">程序员欢哥</span>-->
+<!--            &lt;!&ndash;<span>两情若是长久时 <br> 又岂在朝朝暮暮</span>&ndash;&gt;-->
+<!--            <br>-->
+<!--            <br>-->
+<!--            <span style="color: #3c3c3c">一入java深似海</span>-->
+<!--            <br>-->
+<!--            <span style="color: #0f0f0f">从此一切皆路人</span>-->
         </div>
     </div>
 
-    <div id="div4" style="width: 74.5%;height: 300px;background-color: #ffffff;border-radius: 3px;margin: 5px 0.5%;float: left;line-height: 300px;text-align: center;font-size: 40px;color: red">
-        弘扬社会主义核心价值观
+    <div id="div4" style="width: 74.5%;height: 300px;background-color: #ffffff;border-radius: 3px;margin: 5px 0.5%;float: left;padding: 20px">
+        <div style="padding: 5px 15px;height: 120px;background-color: #dee0e0;border-radius: 3px">
+            <span style="margin-left: 20px;font-size: 18px">html 嵌入地图</span><br>
+            <span style="padding: 0 20px;font-size: 12px">2019-06-08&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by包晓欢</span>
+            <p style="padding: 0 20px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【东宫番外】啊啊啊(曲翠花乡村爱情故事)-电视剧-高清正..._爱奇艺
+                2019年4月7日 - 【东宫番外】啊啊啊(曲翠花乡村爱情故事) 发布时间: 2019-04-07 分享 下载 收藏 举报 更多 公司介绍 | 新闻动态 | 联系方式 | 招聘英才 | 爱奇艺...</p>
+        </div>
+        <br>
+        <div style="padding: 5px 15px;height: 120px;background-color: #dee0e0;border-radius: 3px">
+            <span style="margin-left: 20px;font-size: 18px">html 嵌入地图</span><br>
+            <span style="padding: 0 20px;font-size: 12px">2019-06-08&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by包晓欢</span>
+            <p style="padding: 0 20px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【东宫番外】啊啊啊(曲翠花乡村爱情故事)-电视剧-高清正..._爱奇艺
+                2019年4月7日 - 【东宫番外】啊啊啊(曲翠花乡村爱情故事) 发布时间: 2019-04-07 分享 下载 收藏 举报 更多 公司介绍 | 新闻动态 | 联系方式 | 招聘英才 | 爱奇艺...</p>
+        </div>
+
     </div>
 
     <div id="div5" style="width: 23.5%;height: 300px;background-color: #ffffff;border-radius: 3px;margin: 5px 0.5%;float: left;line-height: 300px;text-align: center;font-size: 40px;color: red">
-        打击黑恶势力
+        小小的网站
     </div>
 </section>
 <footer>
@@ -217,18 +231,18 @@
     var a_idx = 0;
     jQuery(document).ready(function($) {
         $("body").click(function(e) {
-            var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
+            var a = new Array("十里平湖霜满天", "寸寸青丝愁华年", "对月形单望相护", "只羡鸳鸯不羡仙");
             var $i = $("<span />").text(a[a_idx]);
             a_idx = (a_idx + 1) % a.length;
             var x = e.pageX,
                 y = e.pageY;
             $i.css({
-                "z-index": 99999999999999999999999999999999999999999999999999999999999999999999999999 ,
+                "z-index": 99 ,
                 "top": y - 20,
                 "left": x,
                 "position": "absolute",
                 "font-weight": "bold",
-                "color": "#ff6651"
+                "color": "#446cff"
             });
             $("body").append($i);
             $i.animate({
@@ -242,3 +256,7 @@
         });
     });
 </script>
+
+
+
+
